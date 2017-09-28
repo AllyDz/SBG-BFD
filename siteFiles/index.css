@@ -170,6 +170,17 @@ button{
     background-color: white;
     margin: 30px;
 }
+a .btnText{
+	border: 4px solid #4f4f51;
+    padding: 4px;
+    margin: 10px 0 0 0;
+    text-decoration: none;
+    color: #4f4f51;
+}
+a .btnText:hover{
+	color:#febf3e;
+	border: 4px solid #febf3e;
+}
 .btnText{
 	font-family: Helvetica;
     font-size: 18px;
@@ -181,6 +192,9 @@ button{
     height: 32px;
     float: left;
     background-color: #d7d7d7;
+}
+.shopSetsBtn{
+	padding: 30px 0 0 30px;
 }
 .emailsub{
 	margin: 9px 0;
@@ -221,7 +235,7 @@ footer{
     margin: 0 20px 0 0;
     float: right;
 }
-.subscribe a .footerSubmit{ 
+.footerSubmit{ 
 	width: 165px;
     height: 27px;
     margin: 10px;
