@@ -338,18 +338,17 @@ footer{
 		float:none;
 	}
 	header{
-		/*background-image: none;*/
+		background-image: none;
 		background-color: cadetblue;
 		height: auto;
-		width: 100%;
 	}
 	.otherCollections{
 		padding-top: 50px;
 	}
 	.dinningImg, .kitchenImg, .bedImg{
-	    width: 100%;
-	    margin: 0;
-	    max-width: 490px;
+		    max-width: 520px;
+		    width: 100%;
+		    margin: 0;
 	}
 	.shopSets{
 		height: auto;
@@ -365,10 +364,13 @@ footer{
 		margin: auto; 
 		float: none; 
 	}
-/*	*{
-		max-width: none;
-	}*/
-	.regGrayText, .blodOrangeText, .buttonText{
+	/*.textCollections, .bedImg, .form, .dinning, .mapItems,{
+    	margin: 0;
+	}
+	.textShopSets{
+		margin: 40px 0 0 0;
+	}
+*/	.regGrayText, .blodOrangeText, .buttonText{
 		display: block;
 	}
 	.regGrayText, .blodOrangeText, .buttonText{
@@ -394,12 +396,13 @@ footer{
 	    width: 100%;
 	}
 	.form input, .form select{
+		max-width: 600px;
 		height: 40px;
 		margin: 5px 0 0 0;
-		max-width: 490px;
 	}
 	.mapItems{
 		margin: auto;
+	    max-width: 600px;
 	    width: 100%;
 	}
 	.iframeMap{
@@ -410,6 +413,9 @@ footer{
 		padding-left: 5px;
 	}
 	.subscribe a .footerSubmit{ 
-		width:100%;
+		width:95px;
+	}
+	footer{
+		
 	}
 }
