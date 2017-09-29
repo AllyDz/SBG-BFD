@@ -347,7 +347,7 @@ footer{
 	}
 	.dinningImg, .kitchenImg, .bedImg{
 		    max-width: 520px;
-		    width: 100%;
+		    width: 110%;
 		    margin: 0;
 	}
 	.shopSets{
@@ -401,7 +401,7 @@ footer{
 	.mapItems{
 		margin: auto;
 	    max-width: 600px;
-	    width: 100%;
+	    width: 110%;
 	}
 	.iframeMap{
 		width: 100%;
