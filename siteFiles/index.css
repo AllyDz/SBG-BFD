@@ -341,13 +341,13 @@ footer{
 		background-image: none;
 		background-color: cadetblue;
 		height: auto;
-		width: 110%;
+		width: 100%;
 	}
 	.otherCollections{
 		padding-top: 50px;
 	}
 	.dinningImg, .kitchenImg, .bedImg{
-		    width: 110%;
+		    width: 100%;
 		    margin: 0;
 	}
 	.shopSets{
@@ -391,7 +391,7 @@ footer{
 	 	margin: auto;
 	 	padding-bottom: 50px;
 	    display: block;
-	    width: 110%;
+	    width: 100%;
 	}
 	.form input, .form select{
 		height: 40px;
@@ -402,7 +402,7 @@ footer{
 	    width: 100%;
 	}
 	.iframeMap{
-		width: 110%;
+		width: 100%;
 		padding-bottom: 70px;
 	}
 	.subscride{
