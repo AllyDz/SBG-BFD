@@ -341,14 +341,14 @@ footer{
 		background-image: none;
 		background-color: cadetblue;
 		height: auto;
-		width: 110%;
+		width: 100%;
 	}
 	.otherCollections{
 		padding-top: 50px;
 	}
 	.dinningImg, .kitchenImg, .bedImg{
 		    max-width: 520px;
-		    width: 110%;
+		    width: 100%;
 		    margin: 0;
 	}
 	.shopSets{
@@ -404,7 +404,7 @@ footer{
 	    width: 100%;
 	}
 	.iframeMap{
-		width: 110%;
+		width: 100%;
 		padding-bottom: 70px;
 	}
 	.subscride{
