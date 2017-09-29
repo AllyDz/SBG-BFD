@@ -2,7 +2,6 @@
 
 body{
 	width:100%;
-	max-width: 1160px;
 	padding:0;
 	margin:0;
 	font-family: Helvetica Neue;
@@ -12,6 +11,7 @@ header{
     background-image: url("../images/bedSet.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 690px;
 }
@@ -33,7 +33,6 @@ a{
 	text-decoration: none;
 }
 	/*** SECTION STYLES ***/
-
 .otherCollections{
     width: 100%;
     height: 300px;
@@ -50,7 +49,7 @@ a{
     height: 212px;
     float: left;
     line-height: 1.5;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 12%;
     text-align: left;
 }
 .textCollections a:hover{
@@ -61,7 +60,7 @@ a{
     display: inline;
     float: right;
     width: 240px;
-    margin: 40px 80px 0 0;
+    margin: 40px 12% 0 0;
     height: 212px;
     line-height: 1.5;
 }
@@ -103,8 +102,9 @@ a{
 	/*** IMAGE STYLES ***/
 
 .dinning{
-	float: left;
+	float: right;
     text-align: center;
+    margin: 0 12% 0 0;
 }
 .dinningImg{
 	width:100%;
@@ -112,7 +112,7 @@ a{
 }
 .kitchen{
 	float: right;
-    margin: 0 80px 0 0;
+    margin: 0 50px 0 0;
     text-align: right;
     display: table-cell;
 }
@@ -126,7 +126,7 @@ a{
 	height:100%;
 	max-height: 310px;
 	float: left;
-	margin: 0 0 0 80px;
+	margin: 0 0 0 12%;
 }
 	/*** FORM STYLES ***/
 
@@ -135,7 +135,7 @@ form{
 }
 .form{
 	width: 260px;
-    margin: 0px 0 0 80px;
+    margin: 0px 0 0 12%;
     float: left;
     padding: 
 }
@@ -208,7 +208,7 @@ button:hover, .intrestSubmit:hover, .emailSubmit:hover{
 
 .mapItems{
 	float: right;
-	margin: 0 80px 0 0;
+	margin: 0 12% 0 0;
 	display: grid;
 	width: 350px;
 }
@@ -242,13 +242,37 @@ footer{
 }
 
 	/*** MEDIA QUIRRIES ***/
-
+@media only screen and (min-width: 1190px){
+	.dinningImg, .kitchenImg{
+	    max-width: 250px;
+	}
+	.bedImg{
+		max-width: 540px;
+	}
+	.mapItems{
+		width: 400px;
+	}
+	.iframeMap{
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 960px) {
+	.textCollections, .bedImg, .form{
+    	margin: 0 0 0 6%;
+	}
+	.dinning, .mapItems, {
+		margin: 0 6% 0 0;
+	}
+	.textShopSets{
+		margin: 40px 6% 0 0;
+	}
+}
 @media only screen and (max-width: 875px) {
     .footerText{
     	font-size: 14px;
     	width: 300px;
 	}
-	.kitchen, .mapItems{
+	.dinning, .mapItems{
 		margin: 0 20px 0 0;
 	}
 	.bedImg, .form, .textCollections{
@@ -280,98 +304,107 @@ footer{
 		font-size: 14px;
 		height: 30px;
 	}
-	@media only screen and (max-width: 760px) {
-		footer{
-			height: 70px;
-		}
-		.footerForm{
-			text-align: center;
-
-		}
-		.footerText{
-			margin: auto;
-		    display: block;
-		    float: none;
-		    padding: 8px 0 0 0;
-		}
-		.subscribe{
-			display: inline-flex;
-		    margin: auto;
-		    float: none;
-		}
+}
+@media only screen and (max-width: 760px) {
+	footer{
+		height: 70px;
 	}
-	@media only screen and (max-width: 490px) {
-		footer{
-			float:none;
-		}
-		header{
-			background-image: none;
-    		background-color: cadetblue;
-    		height: auto;
-		}
-		.otherCollections{
-			padding-top: 50px;
-		}
-		.dinningImg, .kitchenImg, .bedImg{
-			    max-width: 520px;
-			    width: 100%;
-			    margin: 0;
-		}
-		.shopSets{
-			height: auto;
-		}
-		.kitchen{
-			margin: 0;
-		}
-		.bedImg{
-			padding-bottom: 30px;
-		}
-		.textShopSets{
-			width: 100%;
-    		margin: auto; 
-    		float: none; 
-		}
-		.regGrayText, .blodOrangeText, .buttonText{
-			display: block;
-		}
-		.regGrayText, .blodOrangeText, .buttonText{
-			padding-left: 20px;
-		}
-		.textCollections .regGrayText, .textCollections .blodOrangeText{
-			padding: 0;
-		}
-		.textCollections{
-			line-height: 1.2;
-		}
-		button{
-			margin: 20px 0px 30px 0px;
-			width: 100%;
-		}
-		.form{
-		 	margin: auto;
-		 	padding-bottom: 50px;
-		    display: block;
-		    width: 100%;
-		}
-		.form input, .form select{
-			max-width: 600px;
-			height: 40px;
-			margin: 5px 0 0 0;
-		}
-		.mapItems{
-			margin: auto;
-		    max-width: 600px;
-		    width: 100%;
-		}
-		.iframeMap{
-			width: 100%;
-			padding-bottom: 70px;
+	.footerForm{
+		text-align: center;
 
-		}
-		.subscride{
-			padding-left: 5px;
-		}
-		.subscribe a .footerSubmit{ 
-			width:95px;
-		}
+	}
+	.footerText{
+		margin: auto;
+	    display: block;
+	    float: none;
+	    padding: 8px 0 0 0;
+	}
+	.subscribe{
+		display: inline-flex;
+	    margin: auto;
+	    float: none;
+	}
+}
+@media only screen and (max-width: 741px) {
+	.kitchen{
+	    margin: 0 20px 0 0;
+	}
+}
+@media only screen and (max-width: 490px) {
+	footer{
+		float:none;
+	}
+	header{
+		background-image: none;
+		background-color: cadetblue;
+		height: auto;
+	}
+	.otherCollections{
+		padding-top: 50px;
+	}
+	.dinningImg, .kitchenImg, .bedImg{
+		    max-width: 520px;
+		    width: 100%;
+		    margin: 0;
+	}
+	.shopSets{
+		height: auto;
+	}
+	.kitchen, .dinning{
+		margin: 0;
+	}
+	.bedImg{
+		padding-bottom: 30px;
+	}
+	.textShopSets{
+		width: 100%;
+		margin: auto; 
+		float: none; 
+	}
+	.regGrayText, .blodOrangeText, .buttonText{
+		display: block;
+	}
+	.regGrayText, .blodOrangeText, .buttonText{
+		padding-left: 20px;
+	}
+	.textCollections .regGrayText, .textCollections .blodOrangeText{
+		padding: 0;
+	}
+	.textCollections{
+		line-height: 1.2;
+	}
+	button{
+		margin: 20px 0px 30px 0px;
+		width: 100%;
+	}
+	.shopSetsBtn{
+		margin-bottom: 50px;
+	}
+	.form{
+	 	margin: auto;
+	 	padding-bottom: 50px;
+	    display: block;
+	    width: 100%;
+	}
+	.form input, .form select{
+		max-width: 600px;
+		height: 40px;
+		margin: 5px 0 0 0;
+	}
+	.mapItems{
+		margin: auto;
+	    max-width: 600px;
+	    width: 100%;
+	}
+	.iframeMap{
+		width: 100%;
+		padding-bottom: 70px;
+
+	}
+	.subscride{
+		padding-left: 5px;
+	}
+	.subscribe a .footerSubmit{ 
+		width:95px;
+	}
 }
