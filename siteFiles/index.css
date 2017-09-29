@@ -347,7 +347,6 @@ footer{
 		padding-top: 50px;
 	}
 	.dinningImg, .kitchenImg, .bedImg{
-		    max-width: 520px;
 		    width: 110%;
 		    margin: 0;
 	}
@@ -392,10 +391,9 @@ footer{
 	 	margin: auto;
 	 	padding-bottom: 50px;
 	    display: block;
-	    width: 100%;
+	    width: 110%;
 	}
 	.form input, .form select{
-		max-width: 600px;
 		height: 40px;
 		margin: 5px 0 0 0;
 	}
