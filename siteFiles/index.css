@@ -243,9 +243,7 @@ footer{
 
 	/*** MEDIA QUIRRIES ***/
 
-@-ms-viewport{
-  width: device-width;
-}	
+@-ms-viewport{ width: device-width; }	
 @media only screen and (min-width: 1190px){
 	.dinningImg, .kitchenImg{
 	    max-width: 250px;
@@ -341,13 +339,14 @@ footer{
 		background-image: none;
 		background-color: cadetblue;
 		height: auto;
+		width: 110%;
 	}
 	.otherCollections{
 		padding-top: 50px;
 	}
 	.dinningImg, .kitchenImg, .bedImg{
-		    max-width: 520px;
-		    width: 100%;
+		    max-width: 600px;
+		    width: 110%;
 		    margin: 0;
 	}
 	.shopSets{
@@ -396,6 +395,7 @@ footer{
 	    width: 100%;
 	}
 	.form input, .form select{
+		width: 110%;
 		max-width: 600px;
 		height: 40px;
 		margin: 5px 0 0 0;
@@ -406,7 +406,7 @@ footer{
 	    width: 100%;
 	}
 	.iframeMap{
-		width: 100%;
+		width: 110%;
 		padding-bottom: 70px;
 	}
 	.subscride{
