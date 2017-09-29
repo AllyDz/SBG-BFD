@@ -341,6 +341,7 @@ footer{
 		background-image: none;
 		background-color: cadetblue;
 		height: auto;
+		width: 110%;
 	}
 	.otherCollections{
 		padding-top: 50px;
