@@ -204,7 +204,7 @@ button:hover, .intrestSubmit:hover, .emailSubmit:hover{
 	color: #febf3e; 
 	border-color: #febf3e;
 }
-	/*** MAPE STYLES ***/
+	/*** MAP STYLES ***/
 
 .mapItems{
 	float: right;
@@ -363,6 +363,12 @@ footer{
 		width: 100%;
 		margin: auto; 
 		float: none; 
+	}
+	.textCollections, .bedImg, .form, .dinning, .mapItems,{
+    	margin: 0;
+	}
+	.textShopSets{
+		margin: 40px 0 0 0;
 	}
 	.regGrayText, .blodOrangeText, .buttonText{
 		display: block;
