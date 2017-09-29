@@ -402,10 +402,10 @@ footer{
 	.mapItems{
 		margin: auto;
 	    max-width: 600px;
-	    width: 110%;
+	    width: 100%;
 	}
 	.iframeMap{
-		width: 100%;
+		width: 110%;
 		padding-bottom: 70px;
 	}
 	.subscride{
