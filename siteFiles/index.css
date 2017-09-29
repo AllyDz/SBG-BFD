@@ -349,6 +349,7 @@ footer{
 	.dinningImg, .kitchenImg, .bedImg{
 	    width: 100%;
 	    margin: 0;
+	    max-width: none;
 	}
 	.shopSets{
 		height: auto;
@@ -365,7 +366,7 @@ footer{
 		float: none; 
 	}
 /*	*{
-    	margin-right: 0;
+		max-width: none;
 	}*/
 	.regGrayText, .blodOrangeText, .buttonText{
 		display: block;
@@ -395,6 +396,7 @@ footer{
 	.form input, .form select{
 		height: 40px;
 		margin: 5px 0 0 0;
+		max-width: none;
 	}
 	.mapItems{
 		margin: auto;
