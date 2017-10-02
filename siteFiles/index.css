@@ -133,7 +133,7 @@ a{
 form{
 	margin: 30px 0 20px 0;
 }
-.form{
+.formBlock{
 	width: 260px;
     margin: 0px 0 0 12%;
     float: left;
@@ -243,7 +243,7 @@ footer{
 
 	/*** MEDIA QUIRRIES ***/
 
-@-ms-viewport{ width: device-width; }	
+/*@-ms-viewport{ width: device-width; }	*/
 @media only screen and (min-width: 1190px){
 	.dinningImg, .kitchenImg{
 	    max-width: 250px;
@@ -336,17 +336,17 @@ footer{
 		float:none;
 	}
 	header{
-		background-image: none;
+		/*background-image: none;*/
 		background-color: cadetblue;
 		height: auto;
-		width: 110%;
+		width: 100%;
 	}
 	.otherCollections{
 		padding-top: 50px;
 	}
 	.dinningImg, .kitchenImg, .bedImg{
 		    max-width: 600px;
-		    width: 110%;
+		    width: 100%;
 		    margin: 0;
 	}
 	.shopSets{
@@ -394,11 +394,18 @@ footer{
 	    display: block;
 	    width: 100%;
 	}
-	.form input, .form select{
-		width: 110%;
+	.formBlock{
+	    width: 95%;
+    	margin: 0;
+	}
+	.formBlock input, .formBlock select{
+		width: 100%;
 		max-width: 600px;
 		height: 40px;
 		margin: 5px 0 0 0;
+	}
+	.formBlock select, input.intrestSubmit{
+		width:105%;
 	}
 	.mapItems{
 		margin: auto;
@@ -406,14 +413,14 @@ footer{
 	    width: 100%;
 	}
 	.iframeMap{
-		width: 110%;
+		width: 100%;
 		padding-bottom: 70px;
 	}
 	.subscride{
 		padding-left: 5px;
 	}
 	.subscribe a .footerSubmit{ 
-		width:95px;
+		width:100%
 	}
 	footer{
 		
