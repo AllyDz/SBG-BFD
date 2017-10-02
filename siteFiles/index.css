@@ -396,7 +396,7 @@ footer{
 	}
 	.formBlock{
 	    width: 95%;
-    	margin: 0;
+    	margin: 0 0 30px 0;
 	}
 	.formBlock input, .formBlock select{
 		width: 100%;
@@ -406,6 +406,7 @@ footer{
 	}
 	.formBlock select, input.intrestSubmit{
 		width:105%;
+		margin-bottom: 30px;
 	}
 	.mapItems{
 		margin: auto;
